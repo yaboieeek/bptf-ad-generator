@@ -1,0 +1,17 @@
+.container {
+  padding: 12px;
+  width: calc((100% / 5) - 14px);
+  height: 180px;
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.namingContainer {
+  width: 100%;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+}
